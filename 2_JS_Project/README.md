@@ -1,0 +1,1 @@
+### This is a simple project that calculates the bmi of the user.

@@ -1,0 +1,102 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling with a black background */
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the BMI Calculator */
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling the heading */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Styling for the form fields and button */
+.bmi-form {
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+/* Input fields */
+input[type="number"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Read-only field styling */
+input[readonly] {
+    background-color: #222;
+    color: white;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Info section */
+.info-section {
+    margin-top: 20px;
+    background-color: #444;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.info-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.info-section ul {
+    list-style-type: none;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.info-section ul li {
+    margin-bottom: 5px;
+}
